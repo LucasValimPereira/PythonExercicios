@@ -1,5 +1,4 @@
-nome = str(input('Digite o seu nome para ver se tem silva: '))
+nome = str(input('Digite o seu nome completo: ')).strip()
 
-verdadeiro = "Silva" in nome
-
-print("O seu nome tem 'Silva'?{}".format(verdadeiro))
+print('O seu nome tem Silva?{}'.format('silva' in nome.lower()))
+print("Seu nome formatado da forma adequada: {}".format(nome.title()))
