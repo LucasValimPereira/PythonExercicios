@@ -1,5 +1,2 @@
-cidade = str(input('Digite o nome da cidade para ver se existe a palavra "Santo" nela: '))
-
-verdadeiro = "Santo" in cidade
-
-print("A sua cidade possui a palavra 'Santo'?{}".format(verdadeiro))
+cidade = str(input('Em que cidade você nasceu? ')).strip()
+print(cidade[:5].upper() == 'SANTO')
