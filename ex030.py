@@ -1,6 +1,7 @@
 num = int(input('Digite um número inteiro: '))
+resultado = num % 2
 
-if num % 2 == 0:
+if resultado == 0:
     print(f'O número {num} é par.')
 else:
-    print(f'O número {num} é ímpar.')
+    print(f'O número {num} é impar.')
