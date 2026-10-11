@@ -1,3 +1,3 @@
 hello : str = "Ola, mundo!"
-
-print(hello)
+cores = {'vermelho': '\033[91m'}
+print(cores['vermelho'] + hello)
